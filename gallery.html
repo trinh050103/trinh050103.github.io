@@ -9,6 +9,9 @@
         <title>Ảnh kĩ niệm</title>
         <link rel="stylesheet" href="./css/gallery.css" />
         <link rel="stylesheet" href="./css/style.css" />
+        <!-- Thêm phần hoa anh đào -->
+        <link rel="stylesheet" href="./css/hoaanhdao.css" />
+        <!-- ----- -->
     </head>
     <body>
         <div class="buttons">
@@ -121,6 +124,32 @@
             <source src="https://cdn.glitch.global/c80993b1-4999-49e6-8c91-22694b988e4a/c8bcfffd-3ac2-4119-b062-4f3078dd8810.Co-Gai-Ay-Noi-Voi-Toi-Uu.mp3?v=1642841315016"/>" type="audio/mp3" />
         </audio>
     </body>
-
+    <!-- Thêm phần hoa anh đào -->
+    <script src="./js/hoaanhdao.js" text="text/javascript"></script>
+    <!-- ----- -->
     <script src="./js/gallery.js"></script>
+    <!-- Thêm phần hoa anh đào -->
+    <script>
+        var sakura = new Sakura('body', {
+          colors: [
+            {
+              gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+              gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+              gradientColorDegree: 120,
+            },
+            {
+              gradientColorStart: 'rgba(255,189,189)',
+              gradientColorEnd: 'rgba(227,170,181)',
+              gradientColorDegree: 120,
+            },
+            {
+              gradientColorStart: 'rgba(212,152,163)',
+              gradientColorEnd: 'rgba(242,185,196)',
+              gradientColorDegree: 120,
+            },
+          ],
+          delay: 200,
+        });
+      </script>
+      <!-- ----- -->
 </html>

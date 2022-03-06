@@ -1,8 +1,8 @@
 body {
     /* Ảnh nền của trang thứ 3 */
-    background: url("https://thuthuatnhanh.com/wp-content/uploads/2020/02/hinh-nen-vu-tru-tuyet-dep.jpg");
-    /* background-repeat: no-repeat; */
-    background-size: contain;
+    background: url("https://scr.vn/wp-content/uploads/2020/07/H%C3%ACnh-n%E1%BB%81n-l%C3%A3ng-m%E1%BA%A1n-cute-nh%E1%BA%A5t-scaled.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
   }
   .hello {
     opacity: 1 !important;

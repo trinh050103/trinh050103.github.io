@@ -115,3 +115,8 @@ a {
     border-radius: 120px;
     border: 5px solid rgb(255, 17, 0);
 }
+.beauty{
+    color: blue;
+    display: flex;
+    align-items: flex-end;
+}
